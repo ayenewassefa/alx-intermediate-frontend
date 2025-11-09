@@ -1,0 +1,41 @@
+🧩 Step 1: Check if Node.js is installed
+
+Open the terminal / command prompt and run:
+
+node -v
+
+
+If it shows a version number like v18.17.0, Node.js is already installed.
+If not, download and install it from https://nodejs.org
+ (choose the LTS version).
+
+⚙️ Step 2: Install SASS globally using npm
+
+Once Node.js is installed, run this command in the terminal (not inside Node):
+
+npm install -g sass
+
+
+npm = Node Package Manager
+
+-g = installs globally so you can use sass command anywhere
+
+This downloads and installs SASS on your system.
+
+🧪 Step 3: Verify the installation
+
+After the installation completes, check that SASS works:
+
+sass --version
+
+
+If you see output like:
+
+1.80.3 compiled with dart2js 3.4.0
+
+
+✅ Success — SASS is installed and ready.
+
+
+
+sass --watch styles/main.scss styles/main.css
